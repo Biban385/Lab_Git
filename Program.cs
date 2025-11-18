@@ -41,7 +41,7 @@ namespace УмныйСад
             _ид = ид;
         }
         public override string Message => $"Сенсор '{_ид}' не отвечает!";
-    }
+    } //исправил незначительные ошибки
     public abstract class Растение : IПоливаемый
     {
         protected string имя;
@@ -138,7 +138,7 @@ namespace УмныйСад
             return base.ToString() + (вЦвету ? " 🌸" : "");
         }
     }
-    //сделал оптимизацию кода 
+    
     public class Сенсор
     {
         public string Ид { get; }
