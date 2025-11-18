@@ -138,6 +138,7 @@ namespace УмныйСад
             return base.ToString() + (вЦвету ? " 🌸" : "");
         }
     }
+    //сделал оптимизацию кода 
     public class Сенсор
     {
         public string Ид { get; }
